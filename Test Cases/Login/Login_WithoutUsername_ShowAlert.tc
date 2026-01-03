@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_WithoutUsername_ShowAlert</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>51cdd488-4ea7-40c2-a5c6-39ed1791f9f3</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cart_DeleteProduct_Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a76e7bb2-a82c-4f67-8459-5a5432bbbb06</testCaseGuid>
+</TestCaseEntity>
