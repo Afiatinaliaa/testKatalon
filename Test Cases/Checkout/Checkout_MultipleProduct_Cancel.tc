@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Checkout_MultipleProduct_Cancel</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5d9cf17c-5fa0-43d1-ae12-214d02bf2eca</testCaseGuid>
+</TestCaseEntity>

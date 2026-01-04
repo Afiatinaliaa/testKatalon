@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Checkout</name>
+   <name>Checkout_MultipleProduct_Success</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>a9b1a3a8-fb60-478e-a7a5-8f6453a28889</testCaseGuid>
+   <testCaseGuid>b0089b64-5de4-4e38-9b1d-fa98304d2221</testCaseGuid>
 </TestCaseEntity>
