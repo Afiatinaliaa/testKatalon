@@ -25,7 +25,7 @@
 ## 🌍 Environment
 - Browser: Chrome
 - OS: Windows / macOS
-- URL: `[https://example.com](https://www.demoblaze.com/)`
+- URL: `(https://www.demoblaze.com/)`
 
 ---
 
