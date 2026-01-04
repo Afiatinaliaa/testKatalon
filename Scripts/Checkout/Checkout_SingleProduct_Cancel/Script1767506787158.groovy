@@ -18,8 +18,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//Precondition
 WebUI.callTestCase(findTestCase('Test Cases/Cart/Cart_AddSingleProduct_Success'), null, FailureHandling.STOP_ON_FAILURE)
 
+
+//Step to Reproduce
 WebUI.click(findTestObject('Object Repository/Pages/ProductPage/menu_cart'))
 
 WebUI.click(findTestObject('Object Repository/Pages/Checkout/btn_placeporder'))

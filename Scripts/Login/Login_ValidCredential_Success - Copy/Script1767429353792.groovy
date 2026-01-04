@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.demoblaze.com/')
+
+WebUI.click(findTestObject('Object Repository/Pages/LoginModal/menu_login'))
+
+WebUI.setText(findTestObject('Pages/LoginModal/txt_username'), 'daisykim')
+
+WebUI.setEncryptedText(findTestObject('Pages/LoginModal/txt_password'), '4tAN/DuJV7Y=')
+
+WebUI.click(findTestObject('Pages/LoginModal/btn_login'))
+
+WebUI.verifyElementPresent(findTestObject('Pages/LoginModal/text_welcomedaisykim'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Pages/LoginModal/menu_logout'), 0)
+

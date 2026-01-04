@@ -17,10 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//Precondition
 WebUI.callTestCase(findTestCase('Test Cases/Login/Login_ValidCredential_Success'), [:], FailureHandling.STOP_ON_FAILURE)
 
+//Step to Reproduce
 WebUI.click(findTestObject('Pages/HomePage/btn_logout'))
 
+
+//Expected Result
 String currentUrl = WebUI.getUrl()
 
 WebUI.verifyEqual(currentUrl, 'https://www.demoblaze.com/index.html')

@@ -17,8 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//Precondition
 WebUI.callTestCase(findTestCase('Test Cases/Cart/Cart_AddMultipleProduct_Success'), null, FailureHandling.STOP_ON_FAILURE)
 
+
+//Step to Reproduce
 WebUI.click(findTestObject('Object Repository/Pages/Checkout/btn_placeporder'))
 
 WebUI.setText(findTestObject('Object Repository/Pages/Checkout/txt_name'), 'daisykim')
@@ -35,6 +38,8 @@ WebUI.setText(findTestObject('Object Repository/Pages/Checkout/txt_year'), '2026
 
 WebUI.click(findTestObject('Object Repository/Pages/Checkout/btn_puchase'))
 
+
+//Expected Result
 WebUI.verifyTextPresent('Thank you for your purchase!', false)
 
 WebUI.verifyTextPresent('Card Number: KOR12345', false)

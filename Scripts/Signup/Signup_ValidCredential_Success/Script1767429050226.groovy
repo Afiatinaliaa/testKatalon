@@ -23,6 +23,10 @@ WebUI.navigateToUrl('https://www.demoblaze.com/')
 
 WebUI.click(findTestObject('Object Repository/Pages/SigninModal/menu_signup'))
 
+WebUI.setText(findTestObject('Object Repository/Pages/SigninModal/txt_username'), 'lilykim')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Pages/SigninModal/txt_password'), '4tAN/DuJV7Y=')
+
 WebUI.click(findTestObject('Object Repository/Pages/SigninModal/btn_signup (1)'))
 
 // Tunggu alert muncul

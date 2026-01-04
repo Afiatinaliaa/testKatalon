@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://www.demoblaze.com/')
 
 WebUI.click(findTestObject('Pages/SigninModal/menu_signup'))
 
-WebUI.setText(findTestObject('Pages/SigninModal/txt_username'), 'daisykim')
+WebUI.setText(findTestObject('Pages/SigninModal/txt_username'), 'lilykim')
 
 WebUI.setEncryptedText(findTestObject('Pages/SigninModal/txt_password'), '4tAN/DuJV7Y=')
 
